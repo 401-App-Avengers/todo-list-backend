@@ -20,7 +20,6 @@ from todo_api import views
 
 router = routers.DefaultRouter()
 router.register(r'todo', views.TodoView, 'todo')
-router.register(r'list', views.TodoListView, 'list')
 
 
 urlpatterns = [
